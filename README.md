@@ -11,4 +11,5 @@ Which means:
 
 if we find the minimal n which satisfies the inequality ![image](https://user-images.githubusercontent.com/56035342/163020292-f9aff734-d680-4a64-94d6-e39ae92fb702.png)
 we can say that that the Lagrange remainder is smaller than the accuracy as well, which means the found n is the minimal one
+
 then, once we find the minimal n, we calculate the Taylor polynomial of the found n, and its the answer.
