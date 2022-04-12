@@ -9,6 +9,6 @@ by using the fact that the nth derivative of sin(x) is cos(x)/sin(x)/-cos(x)/-si
 Which means:
 ![image](https://user-images.githubusercontent.com/56035342/163019440-dce9bd1d-5c84-4e29-ad39-7d91c4121200.png)
 
-if we find the minimal n which satisfies the inequality ![image](https://user-images.githubusercontent.com/56035342/163019703-aabc899b-803e-4550-abf6-d09240cabe68.png)
+if we find the minimal n which satisfies the inequality ![image](https://user-images.githubusercontent.com/56035342/163020228-b437fb36-9e94-4807-a9d4-f898319616ba.png)
 we can say that that the Lagrange remainder is smaller than the accuracy as well, which means the found n is the minimal one
 then, once we find the minimal n, we calculate the Taylor polynomial of the found n, and its the answer.
