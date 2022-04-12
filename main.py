@@ -33,6 +33,14 @@ def find_minimun_n(number, accuracy):
 
 """
     This function calculates the sin value of a specified number, with the given accuracy
+
+    First of all, by using the fact that the nth derivative of sin(x) is cos(x)/sin(x)/-cos(x)/-sin(x),  we know that the nth derivative of any c in [0, x] is smaller than 1
+    So, we can say that the Lagrange remainder has to be smaller than "pow(number , 2 * n + 3) / factorial(2 * n + 3)"
+    if we find the minimal n which satisfies the inequality "pow(number , 2 * n + 3) / factorial(2 * n + 3)" < accuracy,
+    we can say that that the Lagrange remainder is smaller than the accuracy as well, which means the found n is the minimal one
+    then, once we find the minimal n, we calculate the Taylor polynomial of the found n, and its the answer.
+
+
     :param number: the number to be calculated
     :type n: float
     :param accuracy: the accuracy the user has chosen
