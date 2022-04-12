@@ -5,7 +5,7 @@ This program can calculate basic trigonometric functions, using Taylor series.
 
 First of all, we know that the Lagrange reminder of our Taylor series is ![image](https://user-images.githubusercontent.com/56035342/163019372-cd4b7eb0-7d5a-40c1-bdbd-95972e94140e.png) , where c is in [0, x]
 
-by using the fact that forany natural number <b>n</b> the nth derivative of sin(x) is cos(x)/sin(x)/-cos(x)/-sin(x),  we know that the nth derivative of any c in [0, x] is smaller than 1
+by using the fact that forany natural number <b>n</b>, the nth derivative of sin(x) is cos(x)/sin(x)/-cos(x)/-sin(x),  we know that the nth derivative of any c in [0, x] is smaller than 1
 Which means:
 ![image](https://user-images.githubusercontent.com/56035342/163019440-dce9bd1d-5c84-4e29-ad39-7d91c4121200.png)
 
